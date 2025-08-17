@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML Document</title>
+ 
+<body> 
+     <h1> EXERCISE ON TABLES AND LISTS </h1>
+
+     <P> Examples of lists,tables media usage in HTML.
+        <table border ="1">
+            <thead> 
+                <tr> 
+                    <th> NAME</th>
+                    <th> AGE </th>
+                    <th> EMAIL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> 
+                    <td>JOHN</td>
+                    <td>25</td>
+                    <td>john@gmail.com</td>
+                </tr>
+                <tr> 
+                    <td>MARY</td>
+                    <td>30</td>
+                    <td>mary@yahoo.com</td>
+                </tr>
+                <tr> 
+                    <td>PAUL</td>
+                    <td>28</td>
+                    <td>paul@gmail.com</td>
+                </tr>
+            </tbody>
+            --lists--
+            <ol> 
+                <li>FRUITS
+                    <ul>
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Cherry</li>
+                    </ul>
+                </li>
+                <li>VEGETABLES
+                    <ul>
+                        <li>Carrot</li>
+                        <li>Broccoli</li>
+                        <li>Spinach</li>
+                    </ul>
+
+            </ol>
+
+     </P> 
+     <h2>INPUT USAGE</h2> 
+         <p>Use of inputs</p>
+            <form action="#" method="post">
+            <label for="username">name</label>
+            <input type="text" id="name" name="name"placeholder="Enter your name"required> 
+            <br>
+            <label for="email">Email</label> 
+            <input type="email" id="email" name="email" autocomplete="email"required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="1" max="100" required>
+            <br>
+            <input type="text" value="Pre-filled information" readonly>
+
+     <h2>EXAMPLE OF USE OF MEDIA</h2>
+        <p> Below is an example of an image and a video.</p>
+        <img src="image.jpg" alt="Sample Image" width="300" height="200">
+          
+          <p>Use of video</p>
+
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Use of audio</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+    
+</form>
+</audio>
+</body>
